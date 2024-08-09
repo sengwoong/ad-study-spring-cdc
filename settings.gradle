@@ -1,0 +1,6 @@
+rootProject.name = 'fastcampust-dsp-migration'
+include 'legacy-dsp-application'
+include 'legacy-dsp-application:aa'
+findProject(':legacy-dsp-application:aa')?.name = 'aa'
+include 'fastcampus.ad'
+
